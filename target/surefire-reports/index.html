@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-freecrmtestsuite">
+              <span class="suite-name border-passed">freecrmtestsuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-freecrmtestsuite">
+                    <span>C:\javatests\freeCRMTest\src\main\resources\freecrm.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-freecrmtestsuite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-freecrmtestsuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-freecrmtestsuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-freecrmtestsuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-freecrmtestsuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-freecrmtestsuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-freecrmtestsuite" class="hide-methods passed suite-freecrmtestsuite"> (hide)</a> <!-- hide-methods passed suite-freecrmtestsuite -->
+                      <a href="#" panel-name="suite-freecrmtestsuite" class="show-methods passed suite-freecrmtestsuite"> (show)</a> <!-- show-methods passed suite-freecrmtestsuite -->
+                    </span>
+                    <div class="method-list-content passed suite-freecrmtestsuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freecrmtestsuite" title="com.qa.testclasses.HomePageTest" hash-for-method="checkuserlogoutTest">checkuserlogoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freecrmtestsuite" title="com.qa.testclasses.ContactsPageTest" hash-for-method="createnewcontacttest(Mr., Tom, Simpson, II, Google)">createnewcontacttest(Mr., Tom, Simpson, II, Google)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freecrmtestsuite" title="com.qa.testclasses.ContactsPageTest" hash-for-method="createnewcontacttest(Dr., Rutvik, gupta, PhD, Amazon)">createnewcontacttest(Dr., Rutvik, gupta, PhD, Amazon)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freecrmtestsuite" title="com.qa.testclasses.ContactsPageTest" hash-for-method="createnewcontacttest(Mrs., Rinku, sam, MD, Microsoft)">createnewcontacttest(Mrs., Rinku, sam, MD, Microsoft)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freecrmtestsuite" title="com.qa.testclasses.LoginPageTest" hash-for-method="headerverification">headerverification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freecrmtestsuite" title="com.qa.testclasses.LoginPageTest" hash-for-method="loginbtnclickverificationTest">loginbtnclickverificationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freecrmtestsuite" title="com.qa.testclasses.LoginPageTest" hash-for-method="loginbtnenabledTest">loginbtnenabledTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freecrmtestsuite" title="com.qa.testclasses.LoginPageTest" hash-for-method="loginpagetitleTest">loginpagetitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freecrmtestsuite" title="com.qa.testclasses.HomePageTest" hash-for-method="quicksearchtextTest">quicksearchtextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freecrmtestsuite" title="com.qa.testclasses.ContactsPageTest" hash-for-method="readcontactinfotextTest">readcontactinfotextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freecrmtestsuite" title="com.qa.testclasses.HomePageTest" hash-for-method="verifyHomepageheaderTest">verifyHomepageheaderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freecrmtestsuite" title="com.qa.testclasses.HomePageTest" hash-for-method="verifyhomepagetitleTest">verifyhomepagetitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freecrmtestsuite" title="com.qa.testclasses.HomePageTest" hash-for-method="verifyusernameisdisplayedTest">verifyusernameisdisplayedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-freecrmtestsuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-freecrmtestsuite" class="panel freecrmtestsuite">
+          <div class="suite-freecrmtestsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.testclasses.ContactsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewcontacttest(Mr., Tom, Simpson, II, Google)">
+                  </a> <!-- createnewcontacttest(Mr., Tom, Simpson, II, Google) -->
+                  <span class="method-name">createnewcontacttest</span>
+                  <span class="parameters">(Mr., Tom, Simpson, II, Google)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewcontacttest(Dr., Rutvik, gupta, PhD, Amazon)">
+                  </a> <!-- createnewcontacttest(Dr., Rutvik, gupta, PhD, Amazon) -->
+                  <span class="method-name">createnewcontacttest</span>
+                  <span class="parameters">(Dr., Rutvik, gupta, PhD, Amazon)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewcontacttest(Mrs., Rinku, sam, MD, Microsoft)">
+                  </a> <!-- createnewcontacttest(Mrs., Rinku, sam, MD, Microsoft) -->
+                  <span class="method-name">createnewcontacttest</span>
+                  <span class="parameters">(Mrs., Rinku, sam, MD, Microsoft)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readcontactinfotextTest">
+                  </a> <!-- readcontactinfotextTest -->
+                  <span class="method-name">readcontactinfotextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-freecrmtestsuite-class-passed -->
+          <div class="suite-freecrmtestsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.testclasses.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkuserlogoutTest">
+                  </a> <!-- checkuserlogoutTest -->
+                  <span class="method-name">checkuserlogoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quicksearchtextTest">
+                  </a> <!-- quicksearchtextTest -->
+                  <span class="method-name">quicksearchtextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomepageheaderTest">
+                  </a> <!-- verifyHomepageheaderTest -->
+                  <span class="method-name">verifyHomepageheaderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyhomepagetitleTest">
+                  </a> <!-- verifyhomepagetitleTest -->
+                  <span class="method-name">verifyhomepagetitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyusernameisdisplayedTest">
+                  </a> <!-- verifyusernameisdisplayedTest -->
+                  <span class="method-name">verifyusernameisdisplayedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-freecrmtestsuite-class-passed -->
+          <div class="suite-freecrmtestsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.testclasses.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="headerverification">
+                  </a> <!-- headerverification -->
+                  <span class="method-name">headerverification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginbtnclickverificationTest">
+                  </a> <!-- loginbtnclickverificationTest -->
+                  <span class="method-name">loginbtnclickverificationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginbtnenabledTest">
+                  </a> <!-- loginbtnenabledTest -->
+                  <span class="method-name">loginbtnenabledTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginpagetitleTest">
+                  </a> <!-- loginpagetitleTest -->
+                  <span class="method-name">loginpagetitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-freecrmtestsuite-class-passed -->
+        </div> <!-- panel freecrmtestsuite -->
+        <div panel-name="test-xml-freecrmtestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\javatests\freeCRMTest\src\main\resources\freecrm.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;freecrmtestsuite&quot;&gt;
+  &lt;test verbose=&quot;0&quot; name=&quot;freecrmtestloginpagetest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.testclasses.LoginPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;loginpagetitleTest&quot;/&gt;
+          &lt;include name=&quot;loginbtnenabledTest&quot;/&gt;
+          &lt;include name=&quot;headerverification&quot;/&gt;
+          &lt;include name=&quot;loginbtnclickverificationTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.qa.testclasses.LoginPageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- freecrmtestloginpagetest --&gt;
+  &lt;test verbose=&quot;0&quot; name=&quot;freecrmtesthomepagetest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.testclasses.HomePageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyhomepagetitleTest&quot;/&gt;
+          &lt;include name=&quot;checkuserlogoutTest&quot;/&gt;
+          &lt;include name=&quot;quicksearchtextTest&quot;/&gt;
+          &lt;include name=&quot;verifyHomepageheaderTest&quot;/&gt;
+          &lt;include name=&quot;verifyusernameisdisplayedTest&quot;/&gt;
+          &lt;include name=&quot;clickonnewcontactspageverifyTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.qa.testclasses.HomePageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- freecrmtesthomepagetest --&gt;
+  &lt;test verbose=&quot;0&quot; name=&quot;freecrmtestContactsPagetest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.testclasses.ContactsPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;readcontactinfotextTest&quot;/&gt;
+          &lt;include name=&quot;createnewcontacttest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.qa.testclasses.ContactsPageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- freecrmtestContactsPagetest --&gt;
+&lt;/suite&gt; &lt;!-- freecrmtestsuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-freecrmtestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for freecrmtestsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">freecrmtestloginpagetest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">freecrmtesthomepagetest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">freecrmtestContactsPagetest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-freecrmtestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for freecrmtestsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-freecrmtestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for freecrmtestsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_freecrmtestsuite');
+function tableData_freecrmtestsuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginbtnclickverificationTest')
+data.setCell(0, 2, 'com.qa.testclasses.LoginPageTest')
+data.setCell(0, 3, 19032);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createnewcontacttest')
+data.setCell(1, 2, 'com.qa.testclasses.ContactsPageTest')
+data.setCell(1, 3, 13062);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createnewcontacttest')
+data.setCell(2, 2, 'com.qa.testclasses.ContactsPageTest')
+data.setCell(2, 3, 12915);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createnewcontacttest')
+data.setCell(3, 2, 'com.qa.testclasses.ContactsPageTest')
+data.setCell(3, 3, 12911);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'quicksearchtextTest')
+data.setCell(4, 2, 'com.qa.testclasses.HomePageTest')
+data.setCell(4, 3, 11517);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'readcontactinfotextTest')
+data.setCell(5, 2, 'com.qa.testclasses.ContactsPageTest')
+data.setCell(5, 3, 10474);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkuserlogoutTest')
+data.setCell(6, 2, 'com.qa.testclasses.HomePageTest')
+data.setCell(6, 3, 4111);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginpagetitleTest')
+data.setCell(7, 2, 'com.qa.testclasses.LoginPageTest')
+data.setCell(7, 3, 1372);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyHomepageheaderTest')
+data.setCell(8, 2, 'com.qa.testclasses.HomePageTest')
+data.setCell(8, 3, 197);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyusernameisdisplayedTest')
+data.setCell(9, 2, 'com.qa.testclasses.HomePageTest')
+data.setCell(9, 3, 194);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginbtnenabledTest')
+data.setCell(10, 2, 'com.qa.testclasses.LoginPageTest')
+data.setCell(10, 3, 128);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'headerverification')
+data.setCell(11, 2, 'com.qa.testclasses.LoginPageTest')
+data.setCell(11, 3, 90);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyhomepagetitleTest')
+data.setCell(12, 2, 'com.qa.testclasses.HomePageTest')
+data.setCell(12, 3, 32);
+window.suiteTableData['freecrmtestsuite']= { tableData: data, tableDiv: 'times-div-freecrmtestsuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-freecrmtestsuite">
+              </div> <!-- times-div-freecrmtestsuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-freecrmtestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for freecrmtestsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-freecrmtestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-freecrmtestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.testclasses.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">getbrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginpagetitleTest</span>
+                <span class="method-start">25130 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">26503 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getbrowser</span>
+                <span class="method-start">28324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginbtnenabledTest</span>
+                <span class="method-start">40600 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">40729 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getbrowser</span>
+                <span class="method-start">41670 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">headerverification</span>
+                <span class="method-start">53478 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">53568 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getbrowser</span>
+                <span class="method-start">54421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginbtnclickverificationTest</span>
+                <span class="method-start">67497 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">86530 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.testclasses.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">getbrowserandloginsetup</span>
+                <span class="method-start">87619 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyhomepagetitleTest</span>
+                <span class="method-start">124323 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">124355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getbrowserandloginsetup</span>
+                <span class="method-start">125273 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkuserlogoutTest</span>
+                <span class="method-start">156992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">161103 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getbrowserandloginsetup</span>
+                <span class="method-start">162559 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">quicksearchtextTest</span>
+                <span class="method-start">196738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">208255 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getbrowserandloginsetup</span>
+                <span class="method-start">209413 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomepageheaderTest</span>
+                <span class="method-start">263382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">263580 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getbrowserandloginsetup</span>
+                <span class="method-start">264471 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyusernameisdisplayedTest</span>
+                <span class="method-start">304091 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">304285 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.testclasses.ContactsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">305656 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">readcontactinfotextTest</span>
+                <span class="method-start">353711 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">364185 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">365912 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createnewcontacttest(Mr., Tom, Simpson, II, Google)</span>
+                <span class="method-start">409349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">422260 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">423271 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createnewcontacttest(Mrs., Rinku, sam, MD, Microsoft)</span>
+                <span class="method-start">478143 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">491206 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">492468 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createnewcontacttest(Dr., Rutvik, gupta, PhD, Amazon)</span>
+                <span class="method-start">535239 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">548154 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

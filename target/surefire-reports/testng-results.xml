@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="freecrmtestsuite" duration-ms="549246" started-at="2018-03-06T04:29:53Z" finished-at="2018-03-06T04:39:02Z">
+    <groups>
+    </groups>
+    <test name="freecrmtestloginpagetest" duration-ms="87595" started-at="2018-03-06T04:29:53Z" finished-at="2018-03-06T04:31:21Z">
+      <class name="com.qa.testclasses.LoginPageTest">
+        <test-method status="PASS" signature="getbrowser()[pri:0, instance:com.qa.testclasses.LoginPageTest@1c79255]" name="getbrowser" is-config="true" duration-ms="25130" started-at="2018-03-05T22:29:53Z" finished-at="2018-03-05T22:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbrowser -->
+        <test-method status="PASS" signature="loginpagetitleTest()[pri:1, instance:com.qa.testclasses.LoginPageTest@1c79255]" name="loginpagetitleTest" duration-ms="1372" started-at="2018-03-05T22:30:18Z" finished-at="2018-03-05T22:30:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpagetitleTest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.qa.testclasses.LoginPageTest@1c79255]" name="closebrowser" is-config="true" duration-ms="1818" started-at="2018-03-05T22:30:20Z" finished-at="2018-03-05T22:30:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="getbrowser()[pri:0, instance:com.qa.testclasses.LoginPageTest@1c79255]" name="getbrowser" is-config="true" duration-ms="12276" started-at="2018-03-05T22:30:21Z" finished-at="2018-03-05T22:30:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbrowser -->
+        <test-method status="PASS" signature="loginbtnenabledTest()[pri:2, instance:com.qa.testclasses.LoginPageTest@1c79255]" name="loginbtnenabledTest" duration-ms="128" started-at="2018-03-05T22:30:34Z" finished-at="2018-03-05T22:30:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbtnenabledTest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.qa.testclasses.LoginPageTest@1c79255]" name="closebrowser" is-config="true" duration-ms="940" started-at="2018-03-05T22:30:34Z" finished-at="2018-03-05T22:30:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="getbrowser()[pri:0, instance:com.qa.testclasses.LoginPageTest@1c79255]" name="getbrowser" is-config="true" duration-ms="11808" started-at="2018-03-05T22:30:35Z" finished-at="2018-03-05T22:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbrowser -->
+        <test-method status="PASS" signature="headerverification()[pri:3, instance:com.qa.testclasses.LoginPageTest@1c79255]" name="headerverification" duration-ms="90" started-at="2018-03-05T22:30:47Z" finished-at="2018-03-05T22:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerverification -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.qa.testclasses.LoginPageTest@1c79255]" name="closebrowser" is-config="true" duration-ms="849" started-at="2018-03-05T22:30:47Z" finished-at="2018-03-05T22:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="getbrowser()[pri:0, instance:com.qa.testclasses.LoginPageTest@1c79255]" name="getbrowser" is-config="true" duration-ms="13076" started-at="2018-03-05T22:30:48Z" finished-at="2018-03-05T22:31:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbrowser -->
+        <test-method status="PASS" signature="loginbtnclickverificationTest()[pri:4, instance:com.qa.testclasses.LoginPageTest@1c79255]" name="loginbtnclickverificationTest" duration-ms="19032" started-at="2018-03-05T22:31:01Z" finished-at="2018-03-05T22:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbtnclickverificationTest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.qa.testclasses.LoginPageTest@1c79255]" name="closebrowser" is-config="true" duration-ms="994" started-at="2018-03-05T22:31:20Z" finished-at="2018-03-05T22:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.qa.testclasses.LoginPageTest -->
+    </test> <!-- freecrmtestloginpagetest -->
+    <test name="freecrmtesthomepagetest" duration-ms="218029" started-at="2018-03-06T04:31:21Z" finished-at="2018-03-06T04:34:59Z">
+      <class name="com.qa.testclasses.HomePageTest">
+        <test-method status="PASS" signature="getbrowserandloginsetup()[pri:0, instance:com.qa.testclasses.HomePageTest@94e528]" name="getbrowserandloginsetup" is-config="true" duration-ms="36704" started-at="2018-03-05T22:31:21Z" finished-at="2018-03-05T22:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbrowserandloginsetup -->
+        <test-method status="PASS" signature="verifyhomepagetitleTest()[pri:1, instance:com.qa.testclasses.HomePageTest@94e528]" name="verifyhomepagetitleTest" duration-ms="32" started-at="2018-03-05T22:31:57Z" finished-at="2018-03-05T22:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomepagetitleTest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.qa.testclasses.HomePageTest@94e528]" name="closebrowser" is-config="true" duration-ms="917" started-at="2018-03-05T22:31:57Z" finished-at="2018-03-05T22:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="getbrowserandloginsetup()[pri:0, instance:com.qa.testclasses.HomePageTest@94e528]" name="getbrowserandloginsetup" is-config="true" duration-ms="31719" started-at="2018-03-05T22:31:58Z" finished-at="2018-03-05T22:32:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbrowserandloginsetup -->
+        <test-method status="PASS" signature="checkuserlogoutTest()[pri:2, instance:com.qa.testclasses.HomePageTest@94e528]" name="checkuserlogoutTest" duration-ms="4111" started-at="2018-03-05T22:32:30Z" finished-at="2018-03-05T22:32:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkuserlogoutTest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.qa.testclasses.HomePageTest@94e528]" name="closebrowser" is-config="true" duration-ms="1455" started-at="2018-03-05T22:32:34Z" finished-at="2018-03-05T22:32:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="getbrowserandloginsetup()[pri:0, instance:com.qa.testclasses.HomePageTest@94e528]" name="getbrowserandloginsetup" is-config="true" duration-ms="34179" started-at="2018-03-05T22:32:36Z" finished-at="2018-03-05T22:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbrowserandloginsetup -->
+        <test-method status="PASS" signature="quicksearchtextTest()[pri:3, instance:com.qa.testclasses.HomePageTest@94e528]" name="quicksearchtextTest" duration-ms="11517" started-at="2018-03-05T22:33:10Z" finished-at="2018-03-05T22:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quicksearchtextTest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.qa.testclasses.HomePageTest@94e528]" name="closebrowser" is-config="true" duration-ms="1157" started-at="2018-03-05T22:33:21Z" finished-at="2018-03-05T22:33:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="getbrowserandloginsetup()[pri:0, instance:com.qa.testclasses.HomePageTest@94e528]" name="getbrowserandloginsetup" is-config="true" duration-ms="53968" started-at="2018-03-05T22:33:23Z" finished-at="2018-03-05T22:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbrowserandloginsetup -->
+        <test-method status="PASS" signature="verifyHomepageheaderTest()[pri:4, instance:com.qa.testclasses.HomePageTest@94e528]" name="verifyHomepageheaderTest" duration-ms="197" started-at="2018-03-05T22:34:16Z" finished-at="2018-03-05T22:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageheaderTest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.qa.testclasses.HomePageTest@94e528]" name="closebrowser" is-config="true" duration-ms="890" started-at="2018-03-05T22:34:17Z" finished-at="2018-03-05T22:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="getbrowserandloginsetup()[pri:0, instance:com.qa.testclasses.HomePageTest@94e528]" name="getbrowserandloginsetup" is-config="true" duration-ms="39620" started-at="2018-03-05T22:34:18Z" finished-at="2018-03-05T22:34:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbrowserandloginsetup -->
+        <test-method status="PASS" signature="verifyusernameisdisplayedTest()[pri:5, instance:com.qa.testclasses.HomePageTest@94e528]" name="verifyusernameisdisplayedTest" duration-ms="194" started-at="2018-03-05T22:34:57Z" finished-at="2018-03-05T22:34:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyusernameisdisplayedTest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.qa.testclasses.HomePageTest@94e528]" name="closebrowser" is-config="true" duration-ms="1362" started-at="2018-03-05T22:34:57Z" finished-at="2018-03-05T22:34:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.qa.testclasses.HomePageTest -->
+    </test> <!-- freecrmtesthomepagetest -->
+    <test name="freecrmtestContactsPagetest" duration-ms="243520" started-at="2018-03-06T04:34:59Z" finished-at="2018-03-06T04:39:02Z">
+      <class name="com.qa.testclasses.ContactsPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testclasses.ContactsPageTest@1d2a7e8]" name="setup" is-config="true" duration-ms="48055" started-at="2018-03-05T22:34:59Z" finished-at="2018-03-05T22:35:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="readcontactinfotextTest()[pri:1, instance:com.qa.testclasses.ContactsPageTest@1d2a7e8]" name="readcontactinfotextTest" duration-ms="10474" started-at="2018-03-05T22:35:47Z" finished-at="2018-03-05T22:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readcontactinfotextTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testclasses.ContactsPageTest@1d2a7e8]" name="teardown" is-config="true" duration-ms="1101" started-at="2018-03-05T22:35:57Z" finished-at="2018-03-05T22:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testclasses.ContactsPageTest@1d2a7e8]" name="setup" is-config="true" duration-ms="43437" started-at="2018-03-05T22:35:59Z" finished-at="2018-03-05T22:36:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createnewcontacttest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.testclasses.ContactsPageTest@1d2a7e8]" name="createnewcontacttest" duration-ms="12911" started-at="2018-03-05T22:36:42Z" data-provider="readNewcontactTestdata" finished-at="2018-03-05T22:36:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simpson]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[II]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewcontacttest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testclasses.ContactsPageTest@1d2a7e8]" name="teardown" is-config="true" duration-ms="1011" started-at="2018-03-05T22:36:55Z" finished-at="2018-03-05T22:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testclasses.ContactsPageTest@1d2a7e8]" name="setup" is-config="true" duration-ms="54872" started-at="2018-03-05T22:36:56Z" finished-at="2018-03-05T22:37:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createnewcontacttest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.testclasses.ContactsPageTest@1d2a7e8]" name="createnewcontacttest" duration-ms="13062" started-at="2018-03-05T22:37:51Z" data-provider="readNewcontactTestdata" finished-at="2018-03-05T22:38:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrs.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rinku]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sam]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MD]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Microsoft]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewcontacttest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testclasses.ContactsPageTest@1d2a7e8]" name="teardown" is-config="true" duration-ms="1262" started-at="2018-03-05T22:38:04Z" finished-at="2018-03-05T22:38:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testclasses.ContactsPageTest@1d2a7e8]" name="setup" is-config="true" duration-ms="42771" started-at="2018-03-05T22:38:06Z" finished-at="2018-03-05T22:38:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createnewcontacttest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.testclasses.ContactsPageTest@1d2a7e8]" name="createnewcontacttest" duration-ms="12915" started-at="2018-03-05T22:38:48Z" data-provider="readNewcontactTestdata" finished-at="2018-03-05T22:39:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rutvik]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gupta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PhD]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Amazon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewcontacttest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testclasses.ContactsPageTest@1d2a7e8]" name="teardown" is-config="true" duration-ms="1020" started-at="2018-03-05T22:39:01Z" finished-at="2018-03-05T22:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testclasses.ContactsPageTest -->
+    </test> <!-- freecrmtestContactsPagetest -->
+  </suite> <!-- freecrmtestsuite -->
+</testng-results>

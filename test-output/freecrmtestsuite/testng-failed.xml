@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [freecrmtestsuite]">
+  <test name="freecrmtestloginpagetest(failed)">
+    <classes>
+      <class name="com.qa.testclasses.LoginPageTest">
+        <methods>
+          <include name="headerverification"/>
+          <include name="closebrowser"/>
+          <include name="getbrowser"/>
+          <include name="loginbtnenabledTest"/>
+          <include name="loginpagetitleTest"/>
+          <include name="loginbtnclickverificationTest"/>
+        </methods>
+      </class> <!-- com.qa.testclasses.LoginPageTest -->
+    </classes>
+  </test> <!-- freecrmtestloginpagetest(failed) -->
+  <test name="freecrmtesthomepagetest(failed)">
+    <classes>
+      <class name="com.qa.testclasses.HomePageTest">
+        <methods>
+          <include name="verifyHomepageheaderTest"/>
+          <include name="verifyhomepagetitleTest"/>
+          <include name="checkuserlogoutTest"/>
+          <include name="verifyusernameisdisplayedTest"/>
+          <include name="getbrowserandloginsetup"/>
+          <include name="closebrowser"/>
+          <include name="quicksearchtextTest"/>
+        </methods>
+      </class> <!-- com.qa.testclasses.HomePageTest -->
+    </classes>
+  </test> <!-- freecrmtesthomepagetest(failed) -->
+</suite> <!-- Failed suite [freecrmtestsuite] -->

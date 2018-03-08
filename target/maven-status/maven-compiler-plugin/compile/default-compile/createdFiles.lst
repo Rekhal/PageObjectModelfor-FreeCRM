@@ -1,0 +1,8 @@
+com\qa\pages\ContactsPage.class
+com\qa\util\TestUtil.class
+com\qa\pages\HomePage.class
+com\qa\util\WebDriverListener.class
+com\qa\testbaseclasses\Testbaseclass.class
+com\qa\pages\RegistrationPage.class
+com\qa\pages\SearchPage.class
+com\qa\pages\Loginpage.class

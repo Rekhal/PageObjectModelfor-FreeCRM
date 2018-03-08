@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="freecrmtestsuite" >
+<test name="freecrmtestloginpagetest">
+<classes>
+<class name="com.qa.testclasses.LoginPageTest">
+<methods>
+<include name="loginpagetitleTest"></include>
+<include name="loginbtnenabledTest"></include>
+<include name="headerverification"></include>
+<include name="loginbtnclickverificationTest"></include>
+</methods>
+
+</class>
+</classes>
+</test>
+
+<test name="freecrmtesthomepagetest">
+<classes>
+<class name="com.qa.testclasses.HomePageTest">
+<methods>
+<include name="verifyhomepagetitleTest"></include>
+<include name="checkuserlogoutTest"></include>
+<include name="quicksearchtextTest"></include>
+<include name="verifyHomepageheaderTest"></include>
+<include name="verifyusernameisdisplayedTest"></include>
+<include name="clickonnewcontactspageverifyTest"></include>
+</methods>
+</class>
+</classes>
+</test>
+
+
+
+<test name="freecrmtestContactsPagetest">
+<classes>
+<class name="com.qa.testclasses.ContactsPageTest">
+<methods>
+<include name="readcontactinfotextTest"></include>
+<include name="createnewcontacttest"></include>
+</methods>
+</class>
+</classes>
+</test>
+</suite>
